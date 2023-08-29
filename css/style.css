@@ -1,0 +1,36 @@
+
+/*
+VARIABLES
+================================================ */
+:root {
+    /* --light-green: #d5edeb;
+    --green: #63dbd0;
+    --brown: #403632;
+    --light-grey: #eee;
+    --white: #fff; */
+    /* --oswald-font: 'Oswald', sans-serif; */
+    --opensans-font: 'Open Sans', sans-serif;
+}
+
+#hero{
+    position: relative;
+}
+
+
+#hero img{
+    height: 100vh;
+    width: 100vw;
+    object-position: 100% 100%;
+}
+
+#hero h1{
+    font-family: var(--opensans-font);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    z-index: 2;
+    width: 100%;
+    font-size: max(6vw, 3rem);
+    line-height: 1.2;
+}
